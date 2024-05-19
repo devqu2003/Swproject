@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gateau Cafe</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+   <!--=============== REMIXICONS ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+   <!--=============== SWIPER CSS ===============-->
+   <link rel="stylesheet" href="css/swiper-bundle.min-1.css">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="maki/styless.css">
+
+</head>
+
+<body>
+
+  <nav>
+     <ul class="sidebar">
+       <li class="here"  onclick=hideSidebar()>
+    <a  href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+       <li><a href=""#home"">Home</a></li>
+       <li><a href="#about">About</a></li>
+       <li><a href="#Reserve">Reservation</a></li>
+       <li><a href="#Contact">Contact Us</a></li>
+
+     </ul>
+     <ul class="sidebar1">
+       <li>  <img class="imag" src="imagess/cc.png"></li>
+       <li class="hideOnMobile"><a href=""#home""><b>Home</b></a></li>
+       <li class="hideOnMobile"><a href="#about"><b>About</b></a></li>
+       <li class="hideOnMobile"><a href="#Reserve"><b>Reservation</b></a></li>
+       <li class="hideOnMobile"><a href="#Contact"><b>Contact</b></a></li>
+
+       <li class="menu-button" onclick=showSidebar()><a href="#"><svg class="hello" xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+     </ul>
+   </nav>
+
+
+
+
+    <!-- <div style="display: flex; flex-wrap: wrap; gap: 5px;">
+        <div class="c">
+
+            <img class="imag" src="logo.png">
+        </div>
+
+        <div class="home" style="display: flex; flex-wrap: wrap; gap: 10px;">
+            <a class="h">Home</a>
+            <a class="h">About</a>
+            <a class="h">Reservation</a>
+            <a class="h">Contact Us</a>
+
+            <img id="menu" src="menu.jpg">
+            <br><br>
+            <nav class="nav-bar">
+                <ul>
+                    <li> <a href="#home">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#Reserve">Reservation</a> </li>
+                    <li> <a href="#Contact">Contact</a> </li>
+                </ul>
+            </nav>
+        </div>
+
+    </div> -->
+
+    <div id="home" style="display: flex; flex-wrap: wrap; gap: 20px;">
+        <div class="container2">
+
+            <h2 class="test">Where every Flavour <br>Tells a Story.</h2>
+            <button class="mak1">
+                <a href="order.html">
+                    <h3>Discover full <br> Menu</h3>
+
+                </a>
+            </button>
+        </div>
+        <div>
+            <!-- <img class="imaa" src="dr.png"> -->
+
+        </div>
+
+    </div>
+    <br>
+
+
+    <div id="about" style="display: flex; flex-wrap: wrap; gap: 10px;">
+        <div class="c1">
+            <h1>Our Story</h1>
+            <p>Gateau was established on nov 05 /2020 We the owners of <br> Gateau Cafe were motivated to start our
+                <br> business based on our own personal experiences <br> with dining out. We enjoyed going <br> out
+                to
+                eat with our
+                spouses <br> and valued quality over quantity. We noticed <br> a gap in the Cafe industry in
+                Addis,
+                <br> Ethiopia, and saw an opportunity to fill <br> that gap by starting our own cafe.<br>
+
+                <br><br>
+                Starting a Cafe can be a challenging but rewarding <br> endeavor. It requires careful planning, a
+                <br> strong understanding of the local market, and a <br> willingness to work hard to create a<br>
+                unique and
+                appealing dining experience<br> for customers. It's important to conduct research <br>and create a
+                solid
+                business plan before launching<br> a new restaurant, and to be prepared to adapt <br>and make
+                changes as
+                needed
+                to <br>stay competitive and meet the needs of customers.<br>
+            </p>
+
+
+        </div>
+        <div class="c2">
+            <video id="video" src="v.mp4" controls poster="image/GATEAU.png"></video>
+        </div>
+
+    </div> <br><br>
+
+
+    <h1 class="menu">Our Menu</h1>
+
+
+
+
+
+    <!-- <div class="menupart" style="display: flex; flex-wrap: wrap; justify-content: space-evenly;">
+        <div>
+            <h2 id="sand">Sandwich</h2>
+        </div>
+        <div>
+            <h2 id="salad">Salad</h2>
+        </div>
+        <div>
+            <h2 id="cake">Desert</h2>
+        </div>
+        <div>
+            <h2 id="drink">Drink</h2>
+        </div>
+    </div> -->
+    <div class="part3" style="display: flex; flex-wrap: wrap; gap:10px">
+
+        <!-- <div class="m">
+            <img id="sal" src="image/san.png" alt="Old Image">
+            <h3>Sandwich</h3>
+        </div>
+
+        <div class="m">
+
+        </div>
+
+        <div class="m">
+
+        </div>
+        <div class="m">
+
+        </div> -->
+        <div style="display: flex; flex-wrap: wrap;   justify-content: space-between;">
+        <div class="m11" >
+
+<img class="m12" src="image/san.png">
+     <h3>Sandwich </h3>
+        </div>
+           <div class="m11">
+           <img class="m12" src="image/sand.png">
+                <h3>Salad </h3>
+     </div>
+             <div class="m11">
+             <img class="m12" src="image/custors.jpg">
+                <h3>Desert </h3> </div>
+               <div class="m11">
+               <img class="m12" src="image/san.png">
+               <h3>Drink</h3>
+             </div>
+
+</div>
+    </div>
+
+    <!-- <div class="menupart1" style="display: flex; flex-wrap: wrap;">
+        <div>
+            <h2 id="juc">Sandwich</h3>
+        </div>
+
+        <div>
+
+            <img id="sal" src="image/san.png" alt="Old Image">
+        </div>
+        <div>
+            <h2 id="juc1">Salad</h2>
+        </div>
+        <div>
+            <img id="sal1" src="image/sand.png" alt="Old Image">
+        </div>
+        <div>
+            <img id="sal2" src="image/custors.jpg" alt="Old Image">
+        </div>
+        <div>
+            <h2 id="cc">Desert</h2>
+        </div>
+        <div>
+            <img id="sal3" src="image/cp.png" alt="Old Image">
+        </div>
+        <div>
+            <h2 id="juc3">Drink</h2>
+        </div>
+
+    </div> -->
+
+    <div class="menupart3" style="display: flex; flex-wrap: wrap;">
+        <div>
+            <button class="mak">
+                <a href="order.html">
+                    <h3>ORDER <br> NOW</h3>
+                </a>
+            </button>
+        </div>
+    </div>
+
+
+
+    <br><br><br>
+    <section class="reservations">
+        <div class="reservation-form">
+            <h2>Make a Reservation</h2>
+            <form action="mailto:marakiastateke930@gmail.com">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <input type="date" name="date" required>
+                <input type="time" name="time" required>
+                <textarea name="message" placeholder="Additional Message" rows="5"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section><br>
+
+    <!-- <div style="display: flex; flex-wrap: wrap; justify-content: center; ">
+        <div>
+            <h2>Testimony</h2>
+
+        </div>
+    </div>
+
+    <div id="reserve" style="display: flex; flex-wrap: wrap;  ">
+
+        <div class="container">
+
+
+            <h3 id="hh">Always fast & very friendly service and a great place <br> to hang out
+                or just to take a little break<br><br><br>
+                PAMELA SMITHS
+            </h3>
+
+
+        </div> -->
+
+
+        <section class="container">
+
+
+            <div class="card__container swiper">
+                   <h1 class="hhhhh">Testimony<h1>
+               <div class="card__content">
+
+                  <div class="swiper-wrapper">
+
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+
+                           <div class="card__shadow"></div>
+
+                        </div>
+
+                        <div class="card__data">
+
+                           <p class="card__description">
+                             Always fast & very friendly service and a great place to hang out
+                                 or just take break.
+                           </p>
+                           <h3 class="card__name">Sebrina semir</h3>
+                        </div>
+                     </article>
+
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+
+                           <div class="card__shadow"></div>
+                        </div>
+
+                        <div class="card__data">
+
+                           <p class="card__description">
+                            This is such sweet cafe!!! I love the ambiance so calming,
+                            relaxing,clean!
+
+                           </p>
+
+                           <h3 class="card__name">Hibist Demu</h3>
+                        </div>
+                     </article>
+
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+
+                           <div class="card__shadow"></div>
+                        </div>
+
+                        <div class="card__data">
+
+                           <p class="card__description">
+            I thoroughly enjoy a weekly treat for myself! Great place and fantastic
+            service!
+                           </p>
+
+                           <h3 class="card__name">Liwam Tamiu</h3>
+                        </div>
+                     </article>
+
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+
+                           <div class="card__shadow"></div>
+                        </div>
+
+                        <div class="card__data">
+
+                           <p class="card__description">
+                            So nice! so yummy! And super affordable! And such a cute
+                            and welcoming place!
+                           </p>
+                           <h3 class="card__name">Bethelem Negus</h3>
+
+                        </div>
+                     </article>
+
+                     <article class="card__article swiper-slide">
+                        <div class="card__image">
+
+                           <div class="card__shadow"></div>
+                        </div>
+
+                        <div class="card__data">
+
+                           <p class="card__description">
+                              Such an amazing cafe joint for family and friends gathering.
+                              cafe is clean!
+                           </p>
+
+                           <h3 class="card__name">Siyam Abdu</h3>
+                        </div>
+                     </article>
+                  </div>
+               </div>
+
+               <!-- Navigation buttons -->
+               <div class="swiper-button-next">
+                  <i class="ri-arrow-right-s-line"></i>
+               </div>
+
+               <div class="swiper-button-prev">
+                  <i class="ri-arrow-left-s-line"></i>
+               </div>
+
+               <!-- Pagination -->
+               <div class="swiper-pagination"></div>
+            </div>
+         </section>
+
+    </div><br>
+
+    <div id="contact" style="display: flex; flex-wrap: wrap;  gap: 0.1px; ">
+        <div class="d">
+
+            <h2 class="work">Contact Us</h2>
+                      <br>
+            <h4 class="work1">📩 Main Email:gateau@gmail.com</h4><br>
+            <h4 class="work1">@gateaucafeaddis</h4><br>
+            <h4 class="work1"> 📞 090 545 4647</h4>
+        </div>
+        <div class="d">
+            <h2 class="work">Our Address</h2>
+                      <br>
+            <h4 class="work1">Next to Churchill Hotel</h4>
+            <h4 class="work1">&</h4>
+            <h4 class="work1">Bisrate Gebriel </h4>
+        </div>
+        <div class="d">
+            <h2 class="work"> Working Hours</h2>
+                      <br>
+            <h4 class="work1">Monday - Sunday</h4><br>
+            <h4 class="work1">7AM - 8PM</h4>
+        </div>
+    </div>
+
+<script src="ind/indexx.js"></script>
+    <!--=============== SWIPER JS ===============-->
+      <script src="js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="js/main.js"></script>
+
+
+    <script src="index2.js"></script>
+</body>
+<!-- <img id="sal" src="cafe.jpg" alt="Old Image"> -->
+
+</html>

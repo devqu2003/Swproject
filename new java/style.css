@@ -1,0 +1,510 @@
+/* 1 section */
+body{
+    margin: 0;
+    padding: 0;
+}
+.c{
+    min-height: 80px;
+    min-width:200px;
+ background-color:black;
+     flex:1;
+     color:white;
+}
+
+.imag{
+    width:60px;
+    height:60px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .h{
+    margin-top: 15px;
+     background-color:black;
+         color:white;
+    }
+    h3{
+      color:black;
+    }
+      .home{
+      background-color:black;
+         flex:1;
+         color:white;
+      }
+      #menu{
+        width:30px;
+        height:30px;
+margin-top: 25px;
+        background-color: white;
+    }
+    .h{
+        display: none;
+    }
+
+
+
+    /* 1 section */
+
+/* 2 section */
+    .container2{
+        width:100%;
+        height:500px;
+            /* background-color: grey;
+            opacity: 0.2; */
+            /* background-color: rgba(128, 128, 128, 0.1); */
+            background-image: linear-gradient(rgba(4,9,30,0.8),
+            rgba(4,9,30,0.7)),url(cafe.jpg);
+          }
+          .test{
+            text-align: center;
+            margin-top:145px;
+            font-style: italic;
+            /* font-weight: 180; */
+        font-size: xx-large;
+        font-weight: 200;
+        word-spacing: 3px;
+        color:black
+        }
+
+            .mak1{
+                color:black;
+                background-color: orange;
+                border: none;
+                width:170px;
+                border-radius: 100px;
+             margin-left:200px ;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+            }
+            .mak1 a{
+                text-decoration: none;
+
+            }
+            .imaa{
+                width:250px;
+                height:200px;
+               text-align: center;
+               margin-left: 230px;
+               margin-top: -100px;
+            }
+            /* 2 section  */
+
+
+            /* 3 section */
+  .c1{
+width:300px;
+height:500px;
+color:white;
+background-color: #1f1f1f;
+   flex:1;
+   border-radius: 10px;
+    margin-left: 10px;
+}
+
+.c2{
+   height: 500px;
+ width:600px;
+margin-left: 3px;
+
+}
+
+#video{
+    min-height: 500px;
+    width:570px;
+    flex:1;
+    margin-top: -13px;
+}
+.c1 h1{
+    text-align: center;
+}
+.c1 p{
+    margin-left: 5px;
+    text-align: center;
+}
+
+/* 3 section */
+
+/* 4 section */
+.reservations {
+    background-color: #1f1f1f;
+    padding: 80px 0;
+    text-align: center;
+
+}
+
+.reservation-form {
+    width: 450px;
+    margin: 0 auto;
+    background-color: #333;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.reservation-form h2 {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.reservation-form form input,
+.reservation-form form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.reservation-form form button {
+    display: inline-block;
+    background-color: orange;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+/* 4 section */
+
+
+/* 5 section */
+.container{
+    width:200px;
+height:320px;
+    /* background-color: grey;
+    opacity: 0.2; */
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 20px;
+ flex:1;
+ justify-content: space-around;
+ margin-left: 50px;
+ margin-right: 50px;;
+}
+
+
+
+#hh{
+   color: black;
+text-align: center;
+font-style: italic;
+margin-top: 100px;
+word-spacing: 5px;
+font-size:larger;
+
+}
+/* 5 section */
+
+
+.d{
+    min-height: 300px;
+    min-width:200px;
+ background-color: #1f1f1f;
+
+     flex:1;
+}
+.work{
+    color:white;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.work1{
+    color:white;
+    text-align: center;
+
+}
+
+.hhhhh{
+  text-align: center;
+  position: relative;
+  top:-80px;
+  font-size: 2rem;
+
+}
+
+
+/* 6 section */
+
+.menu{
+    text-decoration: underline;
+    text-align: center;
+    position: relative;
+    top:55px;
+}
+.m11{
+  position: relative;
+  top:120px;
+    height: 180px;
+    width:180px;
+    justify-content: space-evenly;
+ /* background-color:grey; */
+     flex:1;
+     color:white;
+}
+.m12{
+  width:180px;
+      height: 180px;
+        justify-content: space-evenly;
+}
+/* 6 section */
+#egg{
+    border:200px;
+    border: #1f1f1f;
+}
+
+
+.b{
+    min-height: 50px;
+    min-width:200px;
+ background-color:white;
+     flex:1;
+
+
+}
+#sal{
+    width:100px;
+    height:100px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 80px;
+
+
+}
+#salad:hover{
+  text-decoration: underline;
+  color:orange;
+  cursor: pointer;
+
+
+}
+#sand{
+
+    text-decoration: solid;
+}
+#drink{
+   text-decoration: underline;
+}
+#juc1{
+    margin-left: 170px;;
+    margin-top: 40px;
+}
+#sand:hover{
+
+    color:orange;
+    cursor: pointer;
+
+}
+.menupart{
+    margin-top: 70px;
+}
+.menupart1{
+    margin-top: 50px;
+
+}
+.menupart3{
+    margin-top: 100px;;
+ justify-content: center;
+}
+#salad{
+
+    text-decoration: overline;
+    text-decoration: underline;
+}
+.mak{
+    color:black;
+    background-color: orange;
+    border: none;
+    width:170px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#cake{
+    text-decoration: underline;
+}
+#salad:hover{
+    text-decoration: underline;
+
+    cursor: pointer;
+}
+#cake:hover{
+    color:orange;
+
+    cursor: pointer;
+}
+#drink:hover{
+    text-decoration: underline;
+    color:orange;
+    cursor: pointer;
+}
+#sal3{
+    width:300px;
+    height:220px;
+    margin-left: 120px;
+    margin-top:20px;;
+    border-radius: 80px;
+}
+#sal2{
+    width:300px;
+    height:220px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 80px;
+}
+#juc3{
+    margin-left: 120px;
+    margin-top:110px;;
+}
+#cc{
+    margin-left: 140px;;
+    margin-top: 110px;
+}
+#sal1{
+    width:300px;
+    height:220px;
+    margin-top: -10px;
+    margin-left: 100px;;
+    border-radius: 80px;
+}
+#juc{
+    margin-left: 230px;
+    margin-top: 50px;
+}
+#dh{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+#n{
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+/* reservations*/
+
+/* min-height: 500px;
+min-width:200px;
+background-color:bisque;
+ flex:1; */
+
+
+
+
+.card2{
+   margin-left: 150px;
+   margin-top: -30px;
+}
+.card:hover{
+    background-color:#dc2743;
+}
+.card {
+
+    height: 40px;
+    width: 40px;
+    margin-top: -10px;
+  }
+
+
+
+
+
+
+
+/*
+    nav{
+        display:none;
+    } */
+
+    .part3{
+        width:100%;
+        height:520px;
+            /* background-color: grey;
+            opacity: 0.2; */
+            background-color: rgba(128, 128, 128, 0.1);
+            border-radius: 20px;
+         flex:1;
+         justify-content: space-around;
+         margin-left: 10px;
+         margin-right: 10px;
+
+    }
+    .m{
+        min-height: 60px;
+    min-width:150px;
+ background-color: rgba(36, 33, 33, 0.2);
+     flex:1;
+     border-radius: 30px;
+     color:white;
+    }
+
+  /* a{
+text-decoration: none;
+}
+
+
+
+ul{
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin-top:60px;
+    text-align: left;
+    padding: 0;
+    width: 200px;
+    background-color:black;
+    color : white;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    padding: 2px 2px;
+    text-decoration: none;
+  }
+
+  /* Change the link color on hover */
+  /* li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  a{
+    font-size: larger;
+  } */
+ */
+
+  @media only screen and (max-width: 600px) {
+    /* body {
+      background-color: lightblue;
+    } */
+  /* #menu{
+   margin-left: 200px;
+  }
+  ul {
+
+    margin-top:10px;
+    text-align: right;
+  } */
+  #video{
+    min-height: 500px;
+    width:490px;
+    flex:1;
+    margin-top: -13px;
+  }
+  .reservation-form{
+    width: 395px;
+
+  }
+
+}
+@media only screen and (max-width: 720px) {
+    /* body {
+        background-color: grey;
+    } */
+    /* #menu{
+      /* justify-content: right; */
+      /* margin-left: 250px;
+
+        background-color: white;
+    } */
+}
