@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IP Assignment</title>
+  <link rel="stylesheet" href="nav/nav.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div>
+    <nav>
+      <ul class="sidebar">
+        <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960"
+              width="26">
+              <path
+                d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+            </svg></a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#serv">Service</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">LOTUS</a></li>
+        <li class="hideOnMobile"><a href="#home">Home</a></li>
+        <li class="hideOnMobile"><a href="#serv">Service</a></li>
+        <li class="hideOnMobile"><a href="#about">About</a></li>
+        <li class="hideOnMobile"><a href="#">Contact</a></li>
+        <li class="hideOnMobile"><a href="login.html">Login</a></li>
+        <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+              viewBox="0 96 960 960" width="26">
+              <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+            </svg></a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="landing" id="home">
+    <h1 class="land">Flowers Are More <br> Than Words</h1><br><br>
+    <button class="land1"> Explore Now</button>
+  </div><br><br><br>
+
+  <div class="ser" id="serv">
+    <h2>Our Specialities</h2>
+  </div><br><br>
+
+  <div style="display:flex; flex-wrap:wrap; gap:10px; justify-content: space-evenly;">
+    <div>
+      <img class="img" src="image/home.jpg"><br><br>
+      <h4>Home and Living</h4><br>
+      <p>Lorem ipsum dolor sit amet,<br>
+        consectetur adipisicing elit. <br>
+        Consequatur perferendis pariatur rem<br>
+      </p>
+    </div>
+    <div>
+      <img class="img" src="image/weddd.jpg"><br><br>
+      <h4>Wedding</h4><br>
+      <p>Lorem ipsum dolor sit amet,<br>
+        consectetur adipisicing elit. <br>
+        Consequatur perferendis pariatur rem<br>
+      </p>
+
+    </div>
+    <div>
+      <img class="img" src="image/custom.jpg"><br><br>
+      <h4>Custom Bouquetts</h4><br>
+      <p>Lorem ipsum dolor sit amet,<br>
+        consectetur adipisicing elit. <br>
+        Consequatur perferendis pariatur rem<br>
+      </p>
+    </div>
+    <div>
+      <img class="img" src="image/event.jpg"><br><br>
+      <h4>Events</h4><br>
+      <p>Lorem ipsum dolor sit amet,<br>
+        consectetur adipisicing elit. <br>
+        Consequatur perferendis pariatur rem<br>
+      </p>
+
+    </div>
+  </div>
+  <br><br><br><br>
+
+
+  <!-- <section class="about">
+    <div>
+
+    </div>
+  </section>
+
+  <div class="container">
+    <div>
+      <h3>Working Hours</h3>
+      <p>7AM-8PM</p>
+    </div>
+  </div>
+  <br><br>
+
+  <div class="contact">
+
+  </div> -->
+  <div class="heading" id="about">
+    <h1>About Us</h1>
+    <p>Each blossom emanates a warmth that nourishes the soul, creating a haven of floral tranquility amidst the
+      bustling world outside. </p>
+  </div>
+  <div class="container">
+    <section class="about">
+      <div class="about-image">
+        <img src="image/abtt.jpg">
+      </div>
+
+      <div class="about-content">
+        <h2> Flower shop essence.</h2>
+        <p>Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Quae ut
+          sit ipsum, accusantium voluptates reiciendis
+          corporis ad atque aliquid delectus aut quos,
+          consectetur temporibus blanditiis minima nulla
+          quasi adipisci distinctio.</p>
+        <a href="" class="read-more"> Read More</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- <div class="contactus">
+    <div class="title">
+      <h2>Get In Touch</h2>
+    </div>
+    <div class="box">
+      <div class="contact form">
+        <h3>Send a message</h3>
+      </div>
+      <div class="contact info"></div>
+      <div class="contact map"></div>
+    </div>
+
+  </div> -->
+  <div class="contain">
+    <div class="row">
+      <div class="col">
+        <h3>Get In Touch</h3>
+        <h5>Contact Us</h5>
+        <form>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="single-form">
+                <input type="text" placeholder="your name">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="single-form">
+                <input type="text" placeholder="Email">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="single-form">
+                <input type="text" placeholder="Subject">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="single-form">
+                <input type="text" placeholder="Phone Number">
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="single-form">
+                <textarea placeholder="message"></textarea>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="single-form">
+                <button type="submit" class="main-btn"></button>
+
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+  <script src="nav/nav.js"> </script>
+</body>
+
+</html>
